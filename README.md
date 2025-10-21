@@ -12,8 +12,11 @@ HR teams often struggle with manual and inconsistent salary decisions during hir
 This project solves that by providing an intelligent, data-driven salary prediction system.
 # Project Objectives
 ✔ Build a machine learning model to predict salary in USD
+
 ✔ Assist HR in making fair, consistent, instant salary decisions
+
 ✔ Provide explainable insights — which factor affects salary the most
+
 # Dataset Features
 | Feature         | Description                            |
 | --------------- | -------------------------------------- |
@@ -37,5 +40,6 @@ Salary = b₀ + b₁(Experience) + b₂(Test Score) + b₃(Interview Score)
 
 # Example Predictions
 salpred.predict([[2, 9, 6]])    # 2 years exp, test 9, interview 6
+
 salpred.predict([[12, 10, 10]]) # 12 years exp, test 10, interview 10
 
